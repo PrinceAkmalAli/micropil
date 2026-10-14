@@ -1,5 +1,4 @@
-const BASE = import.meta.env.VITE_API || 'https://micropil-production.up.railway.app';
-
+const BASE = import.meta.env.VITE_API || 'https://micropil-production.up.railway.app/api';
 export const api = async (path, { method = 'GET', body, auth } = {}) => {
   const res = await fetch(BASE + path, {
     method,
