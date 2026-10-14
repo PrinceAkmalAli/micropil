@@ -1,0 +1,180 @@
+{
+  "appointments": [
+    {
+      "id": "fa687e4ff2",
+      "name": "asasdasdas",
+      "phone": "03490218400",
+      "email": "dasd@gmail.com",
+      "procedure": "HydraFacial",
+      "date": "2026-10-29",
+      "time": "10:00",
+      "message": "adasdsad",
+      "status": "pending",
+      "createdAt": 1791961119553
+    },
+    {
+      "id": "2767dbd20c",
+      "name": "AKMAL",
+      "phone": "03117555012",
+      "email": "ak@gmail.com",
+      "procedure": "PRP Therapy",
+      "date": "2026-10-22",
+      "time": "10:00",
+      "message": "",
+      "status": "pending",
+      "createdAt": 1791958041276
+    },
+    {
+      "id": "3ff8da399a",
+      "name": "AKMAL",
+      "phone": "03490218400",
+      "email": "princakmalali@gmail.com",
+      "procedure": "Free hair graft estimate",
+      "date": "2026-10-14",
+      "time": "10:00",
+      "message": "Appiontment",
+      "status": "completed",
+      "createdAt": 1791956744837
+    }
+  ],
+  "patients": [
+    {
+      "id": "mv6aonp7evr4",
+      "code": "MP-0001",
+      "name": "AKMAL",
+      "phone": "03490218400",
+      "email": "princakmalali@gmail.com",
+      "createdAt": 1791872606203,
+      "treatments": [
+        {
+          "id": "a2zfkzb",
+          "procedure": "PRP",
+          "total": 7000,
+          "date": "2026-10-14",
+          "status": "ongoing",
+          "notes": "",
+          "payments": [],
+          "sessions": [
+            {
+              "id": "cuckv0i",
+              "date": "2026-10-22",
+              "note": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "mv6a6n1rnvch",
+      "name": "Owner",
+      "username": "admin",
+      "pass": "17ff83b6ecacea60:0f077e9c06fb8ea869160e50483016ff5786799bb43d9453ff5da32506525a66",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "mv6angynmpp6",
+      "name": "Akmal",
+      "username": "akmal",
+      "pass": "c1a3863b9ee41f0a:50e187856106173d7e0ffe2fa06da5371a2e46133d00f750970eb5051493849e",
+      "role": "staff",
+      "active": true
+    }
+  ],
+  "settings": {
+    "heroImage": ""
+  },
+  "counter": 1,
+  "procedures": [
+    {
+      "id": "mv6a6n1qig6v",
+      "name": "Sapphire FUE Hair Transplant",
+      "category": "Hair",
+      "tag": "Surgical FUE",
+      "description": "Precision follicle extraction using ultra-fine sapphire blades for natural angles and faster healing.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1q2wex",
+      "name": "Beard & Facial Hair Restoration",
+      "category": "Hair",
+      "tag": "Facial Hair",
+      "description": "Custom facial mapping to restore density in patchy beards, mustaches or sideburns with permanent donor grafts.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1qfkm3",
+      "name": "PRP Therapy",
+      "category": "Hair",
+      "tag": "Non-Surgical",
+      "description": "Concentrated platelet-rich plasma injections that strengthen existing hair and support post-transplant recovery.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1qd6b1",
+      "name": "Eyebrow Restoration",
+      "category": "Hair",
+      "tag": "Surgical FUE",
+      "description": "Fine, directional grafts that rebuild thin or missing eyebrows naturally.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1qz9r0",
+      "name": "HydraFacial",
+      "category": "Skin",
+      "tag": "Skin Care",
+      "description": "Deep cleansing, exfoliation and hydration for instantly fresher skin.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1qfqjo",
+      "name": "Acne Clearance & Rejuvenation",
+      "category": "Skin",
+      "tag": "Skin Care",
+      "description": "Targeted programs to clear acne and rejuvenate the skin.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1qn6k5",
+      "name": "Laser Hair Removal",
+      "category": "Body",
+      "tag": "Laser",
+      "description": "Long-lasting hair reduction with comfortable, clinic-grade laser.",
+      "image": ""
+    },
+    {
+      "id": "mv6a6n1q6332",
+      "name": "Body Contouring & Skin Tightening",
+      "category": "Body",
+      "tag": "Body",
+      "description": "Non-invasive contouring and tightening solutions for a firmer shape.",
+      "image": ""
+    }
+  ],
+  "results": [
+    {
+      "id": "mv6a6n1qcz19",
+      "title": "Sapphire FUE - Hairline",
+      "before": "",
+      "after": "",
+      "note": "4,000 grafts, 10 months"
+    },
+    {
+      "id": "mv6a6n1qqe5l",
+      "title": "Beard Restoration",
+      "before": "",
+      "after": "",
+      "note": "2,500 grafts, 8 months"
+    },
+    {
+      "id": "mv6a6n1qw83y",
+      "title": "Crown Density",
+      "before": "",
+      "after": "",
+      "note": "FUE + PRP, 9 months"
+    }
+  ]
+}

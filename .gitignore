@@ -1,0 +1,7 @@
+# Dependencies & Build folders
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
