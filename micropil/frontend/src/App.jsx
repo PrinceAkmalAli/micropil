@@ -3,6 +3,7 @@ import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Navbar, Footer } from "./components";
 import { Home, Procedures, Results, Contact, Portal } from "./pages";
+
 import { Login, Dashboard } from "./admin";
 
 const Page = ({ children }) => (
